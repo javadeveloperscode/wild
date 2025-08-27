@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wb
+    username: postgres
+    password: "011101"
+  jpa:
+    hibernate:
+      ddl-auto: update   # ??? validate, create, create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+telegram:
+  bot:
+    token: 8387587500:AAFHY77gOpKeW0Jg9seGAOS3nW5Q8EwXmLM
+    username: wbservicebuybot
+  chat:
+    id: "975730423"
